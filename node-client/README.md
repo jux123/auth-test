@@ -49,3 +49,8 @@ Payload:
 }
 
 ```
+
+Monitor HTTP requests for port 8080:
+```
+sudo ngrep -d any port 8080
+```
